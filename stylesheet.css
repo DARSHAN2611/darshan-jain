@@ -1,0 +1,60 @@
+.li1 {
+
+display: flex;
+justify-content: space-around;
+}
+.li2 {
+  align-items: center;
+}
+#darshan {
+  position: absolute;
+  top: auto;
+left: 45%;
+  font-size: 3vw;
+  animation-name: darshan;
+  animation-duration: 2s;
+
+
+
+}
+@keyframes darshan {
+  0% {opacity: 0; left:0;}
+  100% {opacity: 1; left:45%;}
+}
+.img1{
+
+background-image:url('img2.jpg');
+ background-size: 100% 100%;
+
+}
+#submit {
+
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 7px 12px;
+  margin: 9px 18px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+cursor: pointer;
+border-radius: 5px;
+}
+#submit:hover{
+  background-color: darkorange;
+}
+
+.text {
+text-align: center;
+border-radius: 5px;
+
+}
+.text:hover{
+  background-color: #FEF5E7;
+}
+
+.box{
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
